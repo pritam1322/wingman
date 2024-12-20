@@ -3,7 +3,6 @@
 import { faComment, faHouse } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { usePathname } from "next/navigation";  // Import the usePathname hook
-import ChatsLogo from "../logos/ChatsLogo";
 import FourChatsLogo from "../logos/FourChatsLogo";
 import GearLogo from "../logos/GearLogo";
 import MainLogo from "../logos/MainLogo";

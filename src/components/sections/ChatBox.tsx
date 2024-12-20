@@ -40,7 +40,7 @@ export default function ChatBox() {
     } catch (error) {
       setMessages([
         ...messages,
-        { text: "Error: Unable to get AI response", isAI: true },
+        { text: "Error: Unable to get AI response" + error, isAI: true },
       ]);
     } finally {
       setLoading(false);
